@@ -1,0 +1,13 @@
+{
+  "rabbitmq":{
+    "Host":"10.63.0.200",
+    "Port":5672,
+    /*"VirtualHosts":"",*/
+    "Url":"",
+    "Username":"guest",
+    "Password":"guest"
+    /*"Channel":"uuabc_test",*/
+    /*"Queue":"uuabc_queue_test",*/
+    /*"ExChange":"uuabc_exchange_test"*/
+  }
+}

@@ -1,0 +1,30 @@
+package: mqserver
+import:
+- package: github.com/go-kit/kit
+  version: ^0.7.0
+  subpackages:
+  - endpoint
+  - log
+  - metrics
+  - metrics/prometheus
+  - tracing/opentracing
+  - transport/http
+- package: github.com/lightstep/lightstep-tracer-go
+  version: ^0.15.4
+- package: github.com/oklog/oklog
+  version: ^0.3.2
+  subpackages:
+  - pkg/group
+- package: github.com/opentracing/opentracing-go
+  version: ^1.0.2
+- package: github.com/openzipkin/zipkin-go-opentracing
+  version: ^0.3.4
+- package: github.com/prometheus/client_golang
+  version: ^0.9.0-pre1
+  subpackages:
+  - prometheus
+  - prometheus/promhttp
+- package: github.com/streadway/amqp
+- package: sourcegraph.com/sourcegraph/appdash
+  subpackages:
+  - opentracing
